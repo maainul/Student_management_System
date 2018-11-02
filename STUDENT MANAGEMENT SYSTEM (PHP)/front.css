@@ -1,0 +1,165 @@
+*{padding:0;margin:0;}	
+.main{
+	width:100%;
+	margin:0 auto;
+	min-height:1006px;
+	background-image:url("background.JPEG");
+	}
+.header{
+	margin:0px;
+	padding:0px;
+	margin-bottom:0px;
+	text-align:center;
+	color:green;
+	font-size:40px;
+	width:100%;
+}
+.header img{
+	width:100%;
+	height:250px;
+	margin:0 auto;
+	border-bottom:5px solid black;
+	margin-bottom:2px;
+}
+.maincontent{
+	font-size:40px;
+	text-align:center;
+	
+	padding-top:0px;
+	width:20%;
+	float:left;
+	background:gray;
+	min-height:695.50px;
+	
+}
+.middle{
+	font-size:40px;
+	text-align:center;
+	color:green;
+	padding-top:0px;
+	width:58.56%;
+	float:left;
+	
+	min-height:695.50px;
+	margin-left:8px;
+}
+.middle img
+{
+	width:100%;
+	height:50%;
+	}
+.right{
+	font-size:40px;
+	text-align:center;
+	color:green;
+	padding-top:0px;
+	width:20%;
+	float:left;
+	background:gray;
+	min-height:695.50px;
+	margin-left:8px;
+}
+.mainimage img{
+	min-height:300px;min-width:300px;
+}
+
+.navigation
+{
+	background:purple;
+	min-height:48px;
+	margin-bottom:5px;
+}  
+
+
+/******navigation******/
+.navigation ul
+{	
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.navigation ul li
+{
+		
+	
+	float:left; 
+	border-right:2px solid white;
+	position:relative;
+	
+}
+
+.navigation ul li a
+{
+	color:#fff;
+	display:block;
+	
+	
+	padding:14px 23.50px;;
+	text-decoration:none;
+}
+
+.navigation ul li a:hover:not(.active)
+{
+	background-color:#1B5D46;
+ 
+  }
+ .active {
+background-color:#1B5D46;
+}
+/****dropdown******/
+
+.navigation ul li ul{position:absolute;left:-99999px;}
+.navigation ul li:hover ul{left:0px;}
+.navigation ul li ul{background:black;}
+.navigation ul li ul li{float:none;border-right:1px solid #1B5D46;border-left:1px solid #1B5D46;border-bottom:1px solid #1B5D46;}
+.navigation ul li ul li a{color:white;padding:15px;}
+.navigation ul li ul li a:hover{}
+.maincontent{}
+footer
+{
+	width:100%;
+	height:300px;
+	background-image:url("back.JPG");
+	float:left;	
+	margin-top:10px;
+}
+.fleftside
+{ 	margin:0px;
+	padding:0px;
+	
+	width:33.33%;
+	float:left;
+	height:200px;
+	}  
+
+
+/******for magrin and padding infront of the navigation******/
+.fnavigation ul
+{
+	margin:0px;
+	padding:0px;
+	margin:0 auto;
+}
+
+.fnavigation ul li
+{
+		
+	list-style-type:none; 
+	overflow:hidden;
+	padding:3.8px;
+	margin-left:20px;
+	border-bottom:1px dotted gray;
+}
+
+.fnavigation ul li a
+{
+	text-decoration: none;
+	color:white;	
+}
+
+.mainconten
+
+/***********footer div************************/
+.fleftside,.fmiddel,.fright{height:300px;width:33.33%;float:left;}
+	
